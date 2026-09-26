@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    color: #333;
+}
+
+.login-page {
+    min-height: 100vh;
+    background: #e3e3f7;
+}
+
+
+.login-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.login-card {
+    width: 100%;
+    max-width: 355px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 9px;
+    padding: 17px 13px 13px;
+    box-shadow:
+        0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+
+.login-card h1 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 17px;
+}
+
+.form-group {
+    margin-bottom: 9px;
+}
+
+
+.form-group label {
+    display: block;
+    font-size: 9px;
+    margin-bottom: 3px;
+    color: #333;
+}
+
+
+.login-card .form-control {
+    height: 20px;
+    min-height: 20px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    border-color: #e3e3e3;
+    font-size: 9px;
+}
+
+.remember {
+    min-height: 15px;
+    margin-bottom: 8px;
+}
+
+
+.remember .form-check-input {
+    width: 10px;
+    height: 10px;
+    margin-top: 2px;
+}
+
+
+.remember .form-check-label {
+    font-size: 9px;
+}
+
+.gender {
+    margin-bottom: 9px;
+}
+
+
+.gender > label {
+    display: block;
+    font-size: 9px;
+    margin-bottom: 1px;
+}
+
+
+.gender .form-check-input {
+    width: 10px;
+    height: 10px;
+    margin-top: 2px;
+}
+
+
+.gender .form-check-label {
+    font-size: 9px;
+}
+
+
+.gender .form-check-inline {
+    margin-right: 3px;
+}
+
+.login-btn {
+    height: 20px;
+    min-height: 20px;
+    padding: 0;
+    border-radius: 3px;
+    font-size: 9px;
+}
+
+.homepage {
+    background: #ffffff;
+    font-size: 15px;
+}
+
+
+.page {
+    margin: 15px auto 0;
+}
+
+.custom-navbar {
+    height: 33px;
+    padding: 0 10px;
+    background: #145083;
+}
+
+
+.custom-navbar .navbar-brand {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0;
+}
+
+
+.logout {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.2;
+    padding: 2px 7px;
+}
+
+.hero {
+    margin-top: 8px;
+    padding: 11px;
+    background: #eaf3ff;
+    border-radius: 5px;
+}
+
+
+.welcome {
+    color: #1672c4;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+
+.hero h1 {
+    color: #145083;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 7px;
+}
+
+
+.hero p {
+    color: #777777;
+    font-size: 15px;
+    line-height: 1.45;
+    margin: 0;
+}
+
+
+.hero-image {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+}
+
+.student-card {
+    margin-top: 8px;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    box-shadow:
+        0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+
+.student-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.student-head h2 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.add-btn {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1;
+    padding: 3px 7px;
+}
+
+.search {
+    width: 330px;
+    max-width: 100%;
+    margin-top: 8px;
+}
+
+.search .form-control {
+    height: 30px;
+    min-height: 20px;
+    padding: 2px 6px;
+    font-size: 14px;
+    border-color: #e2e2e2;
+}
+
+.student-table {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+
+.student-table th {
+    padding: 13px 9px;
+    background: #e7f1fc !important;
+    color: #255b83;
+    font-weight: 700;
+    border-color: #d9e5ef;
+}
+
+
+.student-table td {
+    padding: 13px 9px;
+    border-color: #e5e5e5;
+    vertical-align: middle;
+
+}
+
+.delete-btn {
+    background: #e63950;
+    border-color: #e63950;
+    font-size: 10px;
+    line-height: 1;
+    padding: 2px 6px;
+}
+
+.delete-btn:hover {
+    background: #c8233b;
+    border-color: #c8233b;
+}
+
+footer {
+    margin-top: 22px;
+    padding: 12px;
+    background: #eaf3ff;
+    text-align: center;
+    color: #777777;
+    font-size: 7px;
+}
+
+@media (max-width: 576px) {
+    .page {
+
+        width: 96%;
+
+    }
+    .hero h1 {
+
+        font-size: 30px;
+
+    }
+    .hero-image {
+        margin-top: 8px;
+
+    }
+
+}
